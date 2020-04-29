@@ -1,0 +1,9 @@
+html,
+body {
+  color: #3b312d;
+  /* background-color: #e7e7e7; */
+  background-image: url('./roughcloth.png');
+  background-repeat: repeat;
+  height: 100%;
+  margin: 0;
+}

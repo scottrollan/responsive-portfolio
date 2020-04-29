@@ -1,0 +1,132 @@
+.wrapper {
+  margin: 0 5% 20px;
+  border-radius: 1vw;
+  z-index: 3;
+}
+
+.hide {
+  display: none;
+}
+.portfolioFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.portImage {
+  width: 43%;
+  /* height: 27.3%; */
+  margin: 3% 0;
+  border-radius: 16px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: border-radius 300ms ease-in-out;
+  z-index: 1;
+}
+
+.portImage .imageEffect,
+.portImage .portText,
+.portLabel {
+  transition: opacity 0.5s ease-in-out;
+}
+.href {
+  height: 100%;
+  width: 100%;
+}
+.imageEffect {
+  width: 100%;
+}
+
+.portLabel {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  background-color: #3b312d;
+  color: #ffffff;
+  text-align: center;
+  font-size: 160%;
+  padding: 10px 0px;
+}
+
+.portLabel:hover {
+  background-color: #7c6f61;
+}
+
+.portText {
+  position: absolute;
+  padding: 5px 14px;
+  color: #111111;
+  text-align: center;
+  opacity: 0;
+  z-index: 1;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  margin: 0;
+  font-size: small;
+}
+.portImage:hover .imageEffect {
+  opacity: 0.1;
+}
+.portImage:hover .portText {
+  opacity: 1;
+  /* Apply animation to this element */
+  -moz-animation: scroll-up 5s linear;
+  -webkit-animation: scroll-up 5s linear;
+  animation: scroll-up 5s linear;
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-up {
+  0% {
+    -moz-transform: translateY(0%);
+  }
+  100% {
+    -moz-transform: translateY(-100%);
+  }
+}
+@-webkit-keyframes scroll-up {
+  0% {
+    -webkit-transform: translateY(0%);
+  }
+  100% {
+    -webkit-transform: translateY(-100%);
+  }
+}
+@keyframes scroll-up {
+  0% {
+    -moz-transform: translateY(0%); /* Browser bug fix */
+    -webkit-transform: translateY(0%); /* Browser bug fix */
+    transform: translateY(0%);
+  }
+  100% {
+    -moz-transform: translateY(-100%); /* Browser bug fix */
+    -webkit-transform: translateY(-100%); /* Browser bug fix */
+    transform: translateY(-100%);
+  }
+}
+
+.portImage:hover {
+  border-radius: 0px;
+  -moz-box-shadow: 4px 4px 8px 8px #999;
+  -webkit-box-shadow: 4px 4px 8px 8px #999;
+  box-shadow: 4px 4px 8px 8px #999;
+}
+.portImage:hover .portLabel {
+  opacity: 0.05;
+}
+
+@media screen and (max-width: 760px) {
+  .portImage {
+    width: 94%;
+    font-size: 150%;
+  }
+  .portText {
+    font-size: larger;
+  }
+}
