@@ -5,7 +5,11 @@ const About = () => {
   return (
     <React.Fragment>
       <h2 class="ui header">About Barry</h2>
-      <img class="ui small left floated image" src={Photo} />
+      <img
+        class="ui small left floated image"
+        src={Photo}
+        style={{ borderRadius: '8px' }}
+      />
       <p>My name is Barry Rollan and I live in Atlanta, Georgia.</p>
       <p>
         Learning to master new, and often difficult, skills has been a lifelong
