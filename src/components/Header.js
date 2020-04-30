@@ -6,8 +6,13 @@ class Header extends React.Component {
     return (
       <div className="ui secondary menu">
         <div className="left menu">
-          <Link to="/" className="item">
-            <h2>Barry Rollan</h2>
+          <Link to="/about" className="item">
+            <span className="nameplate">Barry Rollan</span>
+
+            <span style={{ textAlign: 'center' }}>
+              <p className="nameplate shrunk">Barry</p>
+              <p className="nameplate shrunk">Rollan</p>
+            </span>
           </Link>
         </div>
         <div className="right menu" style={{ marginRight: '0' }}>
@@ -30,8 +35,15 @@ class Header extends React.Component {
             background-color: #3d3d3d;
             color: #3b312d;
           }
-          h2 {
+          .nameplate {
             color: #ffffff;
+            font-size: 3vw;
+            display: inherit;
+          }
+          .shrunk {
+            line-height: 40%;
+            font-size: 4.5vw;
+            display: none;
           }
           a {
             font-size: 2vw;
@@ -39,6 +51,12 @@ class Header extends React.Component {
           @media screen and (max-width: 760px) {
             a {
               font-size: 18px;
+            }
+            .nameplate {
+              display: none;
+            }
+            .shrunk {
+              display: inherit;
             }
           }
         `}</style>

@@ -55,6 +55,9 @@ const Contact = () => {
           opacity: 0;
           transition: opacity 0.9s;
         }
+        .tool > .icon {
+          margin-right: 0;
+        }
         .tool:hover {
           color: #148fcc;
           transition: color 0.9s;

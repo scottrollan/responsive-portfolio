@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import styles from './Portfolio.module.css';
 
 const MetricClock = () => {
   const [time, setTime] = useState(new Date());

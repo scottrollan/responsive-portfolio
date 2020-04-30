@@ -9,6 +9,7 @@ const About = () => {
         class="ui small left floated image"
         src={Photo}
         style={{ borderRadius: '8px' }}
+        alt=""
       />
       <p>My name is Barry Rollan and I live in Atlanta, Georgia.</p>
       <p>
