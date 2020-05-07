@@ -108,7 +108,7 @@ const PortfolioItem = () => {
       description:
         'I built a website for my own salon business with buttons to text or email me and embedded, third-party code for appointment-making.',
       label: 'Salon Website',
-      techsUsed: ['React with hooks', 'React-Bootstrap', 'CSS Modules'],
+      techsUsed: ['React with hooks', 'Semantic UI', 'CSS Modules'],
     },
     {
       href: 'https://saffron-mackerel-83x3.squarespace.com/',
