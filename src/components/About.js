@@ -50,7 +50,7 @@ const About = () => {
       </p>
       <p>
         Since completing the Full Stack Development course, I've completed
-        several projects and have engaged PHP, WordPress, Sanity headless
+        several projects and have engaged Redux, WordPress, Sanity headless
         content management system and the Netlify hosting platform.{' '}
       </p>
       <p>
