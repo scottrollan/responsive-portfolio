@@ -111,7 +111,7 @@ const PortfolioItem = () => {
       techsUsed: ['React with hooks', 'Semantic UI', 'CSS Modules'],
     },
     {
-      href: 'https://saffron-mackerel-83x3.squarespace.com/',
+      href: 'http://latinolinq.org/',
       src: linq,
       description: 'A bilingual (Spanish/English) non-profit organization.',
       label: 'Non-Profit',
@@ -143,7 +143,7 @@ const PortfolioItem = () => {
       ],
     },
     {
-      href: 'https://sanity-nearly-native-nursery.netlify.app/',
+      href: 'https://cranky-swanson-2635a4.netlify.app',
       src: nursery,
       description:
         "This nursery's 510-item inventory is searchable by various plant-growing conditions or by common or latin name.",
