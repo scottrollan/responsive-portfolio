@@ -64,19 +64,19 @@ const PortfolioItem = () => {
       techsUsed: ['HTML', 'jQuery', 'Bootstrap', 'CSS', 'MongoDB', 'Express'],
     },
     {
-      href: 'https://cryptic-tor-83545.herokuapp.com/',
+      href: 'https://musing-leavitt-e07123.netlify.app/',
       src: newzy,
       description:
-        'Search news by source, keyword, country or category and save articles to a read-later store.',
+        'Search news articles by keyword/s or see headlines, login to save articles to a read-later store.',
       label: 'Newzy News App',
       techsUsed: [
         'React',
         'Redux',
-        'bCrypt',
-        'MongoDB',
-        'Express',
-        'Heroku',
-        'Bootstrap',
+        'Google auth',
+        'Sanity CMS',
+        'Axios',
+        'Netlify',
+        'NewsCatcher API',
       ],
     },
     {
