@@ -14,7 +14,7 @@ const About = () => {
       <p>My name is Barry Rollan and I live in Atlanta, Georgia.</p>
       <p>
         Learning to master new, and often difficult, skills has been a lifelong
-        penchant for me. I love challenging myself to learn, then apply that
+        penchant for me. I love to challenge myself to learn, then to apply that
         learning, even if it's just for fun. Whether it’s studying a new
         language, mastering sudoku or the Rubik’s cube, creating micro-climates
         for native plants, or playing my favorite stealth video games (for too
@@ -50,16 +50,15 @@ const About = () => {
       </p>
       <p>
         Since completing the Full Stack Development course, I've completed
-        several projects and have engaged Redux, WordPress, Sanity headless
-        content management system and the Netlify hosting platform.{' '}
+        several projects and have engaged Redux, SASS, React Native, Sanity
+        headless content management system and the Netlify hosting platform.{' '}
       </p>
       <p>
         I believe my aptitude for solving riddles, my knack for languages, my
         experience in visual aesthetics and my tenacious work ethic, along with
         the balance I have for being both very personable and tech-minded, make
-        web and software development a perfect next move for me. The constant
-        evolution of technology is one of the most exciting aspects about going
-        into this field. I hope we are both lucky enough to work together!
+        web and software development a perfect next move for me. I hope we are
+        both lucky enough to work together!
       </p>
     </React.Fragment>
   );
