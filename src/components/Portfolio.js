@@ -132,7 +132,7 @@ const PortfolioItem = () => {
       label: 'Movie Trailer App',
       techsUsed: [
         'jQuery and AJAX calls',
-        'CSS Grid with animations',
+        'CSS grid with animations',
         'Bootstrap',
         'React',
       ],
