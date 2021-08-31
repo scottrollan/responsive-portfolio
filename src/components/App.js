@@ -7,6 +7,8 @@ import Connect from './Connect';
 
 class App extends React.Component {
   render() {
+    const today = new Date();
+    const year = today.getFullYear();
     return (
       <React.Fragment>
         <div className="content">
@@ -37,7 +39,7 @@ class App extends React.Component {
             position: 'sticky',
           }}
         >
-          <i className="copyright outline icon"></i>copyright 2020
+          <i className="copyright outline icon"></i>copyright {year}
         </div>
         <style jsx>{`
           .content {
