@@ -5,9 +5,9 @@ import movieTrailer from '../media/movieTrailers.jpg';
 import stockSearch from '../media/stockMarket.jpg';
 import personality from '../media/personality.jpg';
 import employees from '../media/employees.jpg';
-import newzy from '../media/newzy.jpg';
-import nightLife from '../media/nightLife.jpg';
-import atYourService from '../media/atYourService.jpg';
+// import newzy from '../media/newzy.jpg';
+// import nightLife from '../media/nightLife.jpg';
+import neighborhood from '../media/neighborhood.jpeg';
 import salon from '../media/salon.jpg';
 import linq from '../media/linq.jpg';
 import cardMatch from '../media/cardMatch.png';
@@ -55,53 +55,53 @@ const PortfolioItem = () => {
         'CSS Modules',
       ],
     },
-    {
-      href: 'https://salty-refuge-59342.herokuapp.com/',
-      src: employees,
-      description:
-        "People within an organization are able to publicly praise teammates and co-workers within a database of kudos that's updated with each new entry.",
-      label: 'Give Kudos',
-      techsUsed: ['HTML', 'jQuery', 'Bootstrap', 'CSS', 'MongoDB', 'Express'],
-    },
-    {
-      href: 'https://musing-leavitt-e07123.netlify.app/',
-      src: newzy,
-      description:
-        'Search news articles by keyword/s or see headlines, login to save articles to a read-later store.',
-      label: 'Newzy News App',
-      techsUsed: [
-        'React',
-        'Redux',
-        'Google auth',
-        'Sanity CMS',
-        'Axios',
-        'Netlify',
-        'NewsCatcher API',
-      ],
-    },
-    {
-      href: 'https://shielded-hollows-44293.herokuapp.com/',
-      src: nightLife,
-      description:
-        'Register and/or login, search local restaurants and bars for events--by day, event type, or geographical area or see all events for a given venue.',
-      label: 'nightOwl App',
-      techsUsed: ['Google Maps API', 'MongoDB', 'React', 'Express', 'CSS Grid'],
-    },
-    {
-      href: 'https://scottrollan.github.io/harrison/#/public/home',
-      src: atYourService,
-      description:
-        "I am constructing Harrison's landscape and pressure-washing business website.",
-      label: '...in progress',
-      techsUsed: [
-        'React',
-        'React Bootstrap',
-        'Node',
-        'React-Router-Dom',
-        'CSS and HTML',
-        'GH-Pages',
-      ],
-    },
+    // {
+    //   href: 'https://salty-refuge-59342.herokuapp.com/',
+    //   src: employees,
+    //   description:
+    //     "People within an organization are able to publicly praise teammates and co-workers within a database of kudos that's updated with each new entry.",
+    //   label: 'Give Kudos',
+    //   techsUsed: ['HTML', 'jQuery', 'Bootstrap', 'CSS', 'MongoDB', 'Express'],
+    // },
+    // {
+    //   href: 'https://musing-leavitt-e07123.netlify.app/',
+    //   src: newzy,
+    //   description:
+    //     'Search news articles by keyword/s or see headlines, login to save articles to a read-later store.',
+    //   label: 'Newzy News App',
+    //   techsUsed: [
+    //     'React',
+    //     'Redux',
+    //     'Google auth',
+    //     'Sanity CMS',
+    //     'Axios',
+    //     'Netlify',
+    //     'NewsCatcher API',
+    //   ],
+    // },
+    // {
+    //   href: 'https://shielded-hollows-44293.herokuapp.com/',
+    //   src: nightLife,
+    //   description:
+    //     'Register and/or login, search local restaurants and bars for events--by day, event type, or geographical area or see all events for a given venue.',
+    //   label: 'nightOwl App',
+    //   techsUsed: ['Google Maps API', 'MongoDB', 'React', 'Express', 'CSS Grid'],
+    // },
+    // {
+    //   href: 'https://scottrollan.github.io/harrison/#/public/home',
+    //   src: atYourService,
+    //   description:
+    //     "I am constructing Harrison's landscape and pressure-washing business website.",
+    //   label: '...in progress',
+    //   techsUsed: [
+    //     'React',
+    //     'React Bootstrap',
+    //     'Node',
+    //     'React-Router-Dom',
+    //     'CSS and HTML',
+    //     'GH-Pages',
+    //   ],
+    // },
     {
       href: 'http://www.barryrollanstudio.com/',
       src: salon,
@@ -115,7 +115,14 @@ const PortfolioItem = () => {
       src: linq,
       description: 'A bilingual (Spanish/English) non-profit organization.',
       label: 'Non-Profit',
-      techsUsed: ['Squarespace'],
+      techsUsed: [
+        'Material UI',
+        'Sanity CMS',
+        'Netlify Forms',
+        'jQuery',
+        'Node',
+        'React',
+      ],
     },
     {
       href: 'https://scottrollan.github.io/movieTrailers/',
@@ -127,19 +134,21 @@ const PortfolioItem = () => {
         'jQuery and AJAX calls',
         'CSS Grid with animations',
         'Bootstrap',
+        'React',
       ],
     },
     {
       href: 'https://scottrollan.github.io/memory-match-game/',
       src: cardMatch,
       description:
-        'This is my first game: Memory. Click cards to reveal their face values and find their match before the timer runs out.',
+        'This is my first game: Memory. Click cards to reveal their face values and find their match before the timer runs out, then see if you make the top ten scores.',
       label: 'Memory Game',
       techsUsed: [
         'React',
         'CSS Modules',
         'CSS animations',
-        'vanilla Javascript',
+        'jQuery',
+        'Sanity CMS',
       ],
     },
     {
@@ -154,6 +163,19 @@ const PortfolioItem = () => {
         'Javascript',
         'Netlify',
         'React stylized componets',
+      ],
+    },
+
+    {
+      href: 'https://blackland-ridge.com',
+      src: neighborhood,
+      description:
+        'This project was created for a small, 80-home community, in essence, to replace NextDoor and Facebook. Neighbors login, create profiles, add, comment on and "like" public messages and private chats, get notified of new messages via email and/or sms messaging, veiw and add business referrals, pet profiles, kid entrepreneurs and more.',
+      label: 'Neighbors Talk',
+      techsUsed: [
+        'React',
+        'Firebase Authentication, Database & Cloud Functions',
+        'jQuery',
       ],
     },
   ]);
