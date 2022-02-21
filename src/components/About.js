@@ -4,9 +4,9 @@ import Photo from '../media/20190214_200123.jpg';
 const About = () => {
   return (
     <React.Fragment>
-      <h2 class="ui header">About Barry</h2>
+      <h2 className="ui header">About Barry</h2>
       <img
-        class="ui small left floated image"
+        className="ui small left floated image"
         src={Photo}
         style={{ borderRadius: '8px' }}
         alt=""

@@ -5,7 +5,7 @@ import movieTrailer from '../media/movieTrailers.jpg';
 import stockSearch from '../media/stockMarket.jpg';
 import personality from '../media/personality.jpg';
 import neighborhood from '../media/neighborhood.jpeg';
-import salon from '../media/salon.jpg';
+import wordGame from '../media/wordGame.png';
 import linq from '../media/linq.jpg';
 import cardMatch from '../media/cardMatch.png';
 import nursery from '../media/nursery.jpg';
@@ -100,15 +100,21 @@ const PortfolioItem = () => {
     //   ],
     // },
     {
-      href: 'http://www.barryrollanstudio.com/',
-      src: salon,
+      href: 'https://laughing-colden-c2d5f3.netlify.app//',
+      src: wordGame,
       description:
-        'I built a website for my own salon business with buttons to text or email me and embedded, third-party code for appointment-making.',
-      label: 'Salon Website',
-      techsUsed: ['React with hooks', 'Semantic UI', 'CSS Modules'],
+        'My take on a popular daily word game. I have added a continuous-play option, along with the word of the day, as well as a custom user list with persistent scoring data.',
+      label: 'Wordie Game',
+      techsUsed: [
+        'React with hooks',
+        'Google Firebase',
+        'jQuery',
+        'axios',
+        'Merriam-Webster API',
+      ],
     },
     {
-      href: 'http://latinolinq.org/',
+      href: 'https://latinolinq.org/',
       src: linq,
       description: 'A bilingual (Spanish/English) non-profit organization.',
       label: 'Non-Profit',
@@ -179,7 +185,7 @@ const PortfolioItem = () => {
 
   return (
     <React.Fragment>
-      <h2 class="ui header">Portfolio</h2>
+      <h2 className="ui header">Portfolio</h2>
 
       <span className={styles.portfolioFlex}>
         <div className={styles.portImage}>

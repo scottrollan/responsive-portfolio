@@ -11,27 +11,27 @@ const Contact = () => {
           href="https://github.com/scottrollan/EmployeeFinder"
         >
           <i className="huge github square icon"></i>
-          <div class="tooltiptext">sample code</div>
+          <div className="tooltiptext">sample code</div>
         </a>
         <a
           className="four wide column tool"
           href="https://www.linkedin.com/in/barry-scott-rollan-2aa5a8/"
         >
           <i className="huge linkedin icon"></i>
-          <div class="tooltiptext">linkedIn profile</div>
+          <div className="tooltiptext">linkedIn profile</div>
         </a>
         <a
           className="four wide column tool"
           href="mailto:barry@barryrollanstudio.com?subject=Contact%20from%20website"
         >
           <i className="huge envelope icon"></i>
-          <div class="tooltiptext" style={{ width: '100%' }}>
+          <div className="tooltiptext" style={{ width: '100%' }}>
             email Barry
           </div>
         </a>
         <a className="four wide column tool" href="sms:1-404-840-5408">
           <i className="huge comment alternate icon"></i>
-          <div class="tooltiptext">text Barry</div>
+          <div className="tooltiptext">text Barry</div>
         </a>
       </div>
       <style jsx>{`
